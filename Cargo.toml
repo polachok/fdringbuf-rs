@@ -18,6 +18,3 @@ git = "https://github.com/carllerche/nix-rust"
 
 [dev-dependencies]
 mio = "*"
-
-[features]
-default = ["nix/eventfd"]
