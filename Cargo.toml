@@ -14,11 +14,9 @@ libc = "*"
 log = "*"
 
 [dev-dependencies.nix]
-nix = "*"
-# Nix on crates.io is currently broken w r t eventfd
 git = "https://github.com/carllerche/nix-rust"
 
-[dev-dependencies.mio]
+[dev-dependencies]
 mio = "*"
 
 [features]
